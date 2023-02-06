@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# How to start
+
+After you have cloned the project move into the project directory (`cd AbschlussProjekt`) and run `npm install`.
+
+## Start JSON Server
+
+To start the JSON server make sure you are inside the root directory and run `json-server --watch db.json`. It will be hosted at `http://localhost:3000/`
+

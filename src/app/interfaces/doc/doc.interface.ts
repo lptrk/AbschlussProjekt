@@ -1,5 +1,5 @@
 export interface Doc {
-  SQLID: number;
+  id: number;
   GoogleDriveFileID: string;
   SQLBlobID: number;
   Source: string;
