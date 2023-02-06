@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { TableComponent } from './components/table/table.component';
+import { WillkomenComponent } from './pages/willkomen/willkomen.component';
+import { AuftragssucheComponent } from './pages/auftragssuche/auftragssuche.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     SidebarComponent,
-    TableComponent
+    TableComponent,
+    WillkomenComponent,
+    AuftragssucheComponent
   ],
   imports: [
     BrowserModule,
