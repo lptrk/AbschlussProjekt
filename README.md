@@ -32,5 +32,5 @@ After you have cloned the project move into the project directory (`cd Abschluss
 
 ## Start JSON Server
 
-To start the JSON server make sure you are inside the root directory and run `json-server --watch db.json`. It will be hosted at `http://localhost:3000/`
+To start the JSON server make sure you are inside the root directory and run `json-server --watch db.json` (`npx json-server --watch db.json` on **Windows**). It will be hosted at `http://localhost:3000/`
 
