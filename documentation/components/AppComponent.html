@@ -205,7 +205,9 @@ export class AppComponent {
     </div>
 
     <div class="tab-pane fade " id="c-templateData">
-        <pre class="line-numbers"><code class="language-html">&lt;app-auftragssuche&gt;&lt;/app-auftragssuche&gt;
+        <pre class="line-numbers"><code class="language-html">&lt;html data-theme&#x3D;&quot;corporate&quot;&gt;
+  &lt;app-welcome&gt;&lt;/app-welcome&gt;
+&lt;/html&gt;
 </code></pre>
     </div>
 
@@ -241,7 +243,7 @@ export class AppComponent {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><app-auftragssuche></app-auftragssuche></div>'
+        var COMPONENT_TEMPLATE = '<div><html data-theme="corporate">  <app-welcome></app-welcome></html></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AuftragssucheComponent', 'selector': 'app-auftragssuche'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'TableComponent', 'selector': 'app-table'},{'name': 'WelcomeComponent', 'selector': 'app-welcome'},{'name': 'WillkomenComponent', 'selector': 'app-willkomen'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'AppComponent'};

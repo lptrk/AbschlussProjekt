@@ -13,5 +13,4 @@ export interface Doc {
   Content?: any;
   tmpFullWorkspacePath?: any;
   tmpErrStr?: any;
-  content: string;
 }
